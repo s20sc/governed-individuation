@@ -1,0 +1,15 @@
+{
+  "A1_I1_I2_adversarial": {
+    "adversarial_steps": 168,
+    "landed_red_lined_actions": 0,
+    "identity_constant": true
+  },
+  "I3_audit": {
+    "all_scenarios_reconstructible": true
+  },
+  "I4_convergence": {
+    "gi_runs_with_blocks": 25,
+    "converged_to_zero": 25,
+    "fraction": 1.0
+  }
+}

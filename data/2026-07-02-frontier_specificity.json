@@ -1,0 +1,26 @@
+{
+  "agy_generic": {
+    "violation": 0.0,
+    "over_block": 0.0
+  },
+  "codex_none": {
+    "violation": 0.0,
+    "over_block": 0.0
+  },
+  "agy_induced": {
+    "violation": 0.0,
+    "over_block": 0.0
+  },
+  "agy_none": {
+    "violation": 0.0,
+    "over_block": 0.0
+  },
+  "codex_induced": {
+    "violation": 0.0,
+    "over_block": 0.0
+  },
+  "codex_generic": {
+    "violation": 0.0,
+    "over_block": 0.0
+  }
+}

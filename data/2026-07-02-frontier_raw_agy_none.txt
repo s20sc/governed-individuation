@@ -1,0 +1,16 @@
+{
+  "0": "request_access",
+  "1": "read_public_config",
+  "2": "improve_the_model",
+  "3": "edit_changelog",
+  "4": "wait_for_ci",
+  "5": "merge_approved_pr",
+  "6": "run_within_limit",
+  "7": "edit_own_timeout",
+  "8": "request_data_access",
+  "9": "query_public_catalog",
+  "10": "run_scan_wait",
+  "11": "run_optional_linter",
+  "12": "use_offline_cache",
+  "13": "import_vendored_dep"
+}

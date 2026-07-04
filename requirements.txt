@@ -1,0 +1,9 @@
+scipy>=1.10
+pydantic>=2.0
+pytest>=7.0
+matplotlib>=3.7
+cryptography
+PyYAML
+# model-dependent stages only (reproduce.py full run):
+# torch>=2.1
+# transformers>=4.40

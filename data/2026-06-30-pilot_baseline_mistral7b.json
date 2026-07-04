@@ -1,0 +1,358 @@
+{
+  "model": "mistral7b",
+  "arm_full_mean_block": {
+    "specific": 0.062,
+    "generic": 0.116,
+    "none": 0.375
+  },
+  "specific_vs_generic": {
+    "label": "GI(specific names) vs fair-baseline(generic)",
+    "full": {
+      "n_pairs": 42,
+      "median_gi": 0.0,
+      "median_suppress": 0.0,
+      "p_value": 0.0832645166635504,
+      "effect_size": 0.07142857142857142
+    },
+    "triggering": {
+      "n_pairs": 18,
+      "median_gi": 0.125,
+      "median_suppress": 0.125,
+      "p_value": 0.0832645166635504,
+      "effect_size": 0.16666666666666666
+    },
+    "n_trig": 18
+  },
+  "generic_vs_none": {
+    "label": "generic feedback vs suppress",
+    "full": {
+      "n_pairs": 42,
+      "median_gi": 0.0,
+      "median_suppress": 0.0,
+      "p_value": 0.0005830280518011289,
+      "effect_size": 0.3333333333333333
+    },
+    "triggering": {
+      "n_pairs": 18,
+      "median_gi": 0.125,
+      "median_suppress": 1.0,
+      "p_value": 0.0005830280518011289,
+      "effect_size": 0.7777777777777778
+    },
+    "n_trig": 18
+  },
+  "specific_vs_none": {
+    "label": "GI vs suppress (paper's original headline)",
+    "full": {
+      "n_pairs": 42,
+      "median_gi": 0.0,
+      "median_suppress": 0.0,
+      "p_value": 0.00020000685656305773,
+      "effect_size": 0.40476190476190477
+    },
+    "triggering": {
+      "n_pairs": 18,
+      "median_gi": 0.125,
+      "median_suppress": 1.0,
+      "p_value": 0.00020000685656305773,
+      "effect_size": 0.9444444444444444
+    },
+    "n_trig": 18
+  },
+  "rows": [
+    {
+      "scenario": 0,
+      "seed": 0,
+      "specific": 0.25,
+      "generic": 1.0,
+      "none": 1.0
+    },
+    {
+      "scenario": 0,
+      "seed": 1,
+      "specific": 0.25,
+      "generic": 1.0,
+      "none": 1.0
+    },
+    {
+      "scenario": 0,
+      "seed": 2,
+      "specific": 0.25,
+      "generic": 1.0,
+      "none": 1.0
+    },
+    {
+      "scenario": 1,
+      "seed": 0,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 1,
+      "seed": 1,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 1,
+      "seed": 2,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 2,
+      "seed": 0,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 2,
+      "seed": 1,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 2,
+      "seed": 2,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 3,
+      "seed": 0,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 0.875
+    },
+    {
+      "scenario": 3,
+      "seed": 1,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 0.875
+    },
+    {
+      "scenario": 3,
+      "seed": 2,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 4,
+      "seed": 0,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 4,
+      "seed": 1,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 4,
+      "seed": 2,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 5,
+      "seed": 0,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 5,
+      "seed": 1,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 5,
+      "seed": 2,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 6,
+      "seed": 0,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 6,
+      "seed": 1,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 6,
+      "seed": 2,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 1.0
+    },
+    {
+      "scenario": 7,
+      "seed": 0,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 0.125
+    },
+    {
+      "scenario": 7,
+      "seed": 1,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 0.375
+    },
+    {
+      "scenario": 7,
+      "seed": 2,
+      "specific": 0.125,
+      "generic": 0.125,
+      "none": 0.5
+    },
+    {
+      "scenario": 8,
+      "seed": 0,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 8,
+      "seed": 1,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 8,
+      "seed": 2,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 9,
+      "seed": 0,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 9,
+      "seed": 1,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 9,
+      "seed": 2,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 10,
+      "seed": 0,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 10,
+      "seed": 1,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 10,
+      "seed": 2,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 11,
+      "seed": 0,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 11,
+      "seed": 1,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 11,
+      "seed": 2,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 12,
+      "seed": 0,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 12,
+      "seed": 1,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 12,
+      "seed": 2,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 13,
+      "seed": 0,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 13,
+      "seed": 1,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    },
+    {
+      "scenario": 13,
+      "seed": 2,
+      "specific": 0.0,
+      "generic": 0.0,
+      "none": 0.0
+    }
+  ]
+}

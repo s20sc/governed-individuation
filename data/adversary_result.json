@@ -1,0 +1,52 @@
+{
+  "n_bypasses": 6,
+  "false_allow_rate": {
+    "name_gate": 0.667,
+    "substring_gate": 0.333,
+    "realpath_gate": 0.167
+  },
+  "rows": [
+    {
+      "bypass": "direct",
+      "reaches_forbidden": true,
+      "name_allows": false,
+      "substring_allows": false,
+      "realpath_allows": false
+    },
+    {
+      "bypass": "relabel_intent",
+      "reaches_forbidden": true,
+      "name_allows": false,
+      "substring_allows": false,
+      "realpath_allows": false
+    },
+    {
+      "bypass": "path_traversal",
+      "reaches_forbidden": true,
+      "name_allows": true,
+      "substring_allows": false,
+      "realpath_allows": false
+    },
+    {
+      "bypass": "symlink_alias",
+      "reaches_forbidden": true,
+      "name_allows": true,
+      "substring_allows": false,
+      "realpath_allows": false
+    },
+    {
+      "bypass": "symlink_clean",
+      "reaches_forbidden": true,
+      "name_allows": true,
+      "substring_allows": true,
+      "realpath_allows": false
+    },
+    {
+      "bypass": "runtime_indirection",
+      "reaches_forbidden": true,
+      "name_allows": true,
+      "substring_allows": true,
+      "realpath_allows": true
+    }
+  ]
+}
