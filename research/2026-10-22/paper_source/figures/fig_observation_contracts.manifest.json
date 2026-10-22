@@ -1,0 +1,18 @@
+{
+  "input": "analysis-output-final/analysis.json",
+  "input_sha256": "59e8557a14e29fd501092992b431d1676fd271383afe2be4118535d94c30aae0",
+  "item_observation": {
+    "condition": "reference",
+    "test_id": "test-2-Kestrel",
+    "choice": "admit"
+  },
+  "member_ids": [
+    "decision-0-generated-reference-4",
+    "decision-3-generated-reference-4"
+  ],
+  "outputs": {
+    "fig_observation_contracts.pdf": "217e697fb8cf97718f4ac03cea4e8d871997b5f0e54753be332b7b1243679ed8",
+    "fig_observation_contracts.png": "c80689821ffe823867002fb7e2734a89637bf0a22d41466505c729b2f2c4198b"
+  },
+  "scope": "Existing finite records and explicit annotation inputs; no causal path, new response or authority validation."
+}

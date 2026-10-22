@@ -1,0 +1,6 @@
+{
+  "reader_sha256": "6b177b61b8f76e9162334913e23eb95a0bc371c49c001523f57458ce96037042",
+  "outer_archive_sha256": "81ce86f32c91d1be8d1c3e0475a24467df986070c0a5b2d7b63dcaec003e63e8",
+  "analysis_sha256": "468ebb00fb146ae12f62b3037b114e205b44d941f48c68072020d95d8db82dcc",
+  "scope": "Offline byte binding and deterministic reanalysis; not authenticated execution."
+}

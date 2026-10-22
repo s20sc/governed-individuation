@@ -1,87 +1,15 @@
-# Governed Individuation — experiment harness
+# Governed Individuation research artifacts
 
-A measurement harness that tests whether a deployable learning agent can grow
-more capable while keeping a frozen, verifiable identity. It runs over a real
-runtime governance layer: the agent's identity is bound to a frozen seed and
-committed to a digest; competence is routed through a decoupled, auditable
-realization layer that cannot widen what the agent is permitted to do.
+The current research-records release accompanies **Evaluating Authority Claims in Adaptive Agents: Observation Contracts and Finite Diagnostics**.
 
-The agent proposes actions with a local language model; a frozen governance
-function permits or refuses each; refusals are recorded into the realization
-layer and surfaced to the agent's next proposal, so the agent learns to act
-within its red-lines without its identity changing.
+- [Versioned research release](https://github.com/s20sc/governed-individuation/releases/tag/research-v1.0.0)
+- [Research records and offline entry point](research/2026-10-22/README.md)
+- [Licence scopes](research/2026-10-22/LICENSING.md) and [citation metadata](research/2026-10-22/CITATION.cff)
 
-## What it establishes
+The release retains the study's frozen plans, requests/responses, semantic annotations, scientific expected outputs and qualified saved-cost records. It supplies bounded offline readers and supporting figures. All claims are limited to the measurements and premises stated in the accompanying manuscript and release documentation. It does not authenticate original model execution, establish a continuing authority-preserving lifecycle, or demonstrate causal governance gains or physical safety.
 
-| Property | Meaning | Result |
-|---|---|---|
-| **I1** identity invariance | the identity digest never moves inside the loop | constant across all 140 study runs + 168 adversarial steps |
-| **I2** permission conservation | no action outside the red-lines can land, ever | 0 landed red-lined actions; unsigned permission-widening rejected |
-| **I3** auditability | the trajectory reconstructs from the cause-linked record | one-to-one reconstruction in 14/14 scenarios |
-| **I4** convergence | the blocked-proposal rate falls to zero | 25/25 runs with blocks converge monotonically |
-| **growth vs drift** | feedback makes the agent grow, identity stays fixed | blocked rate 0.12 (with feedback) vs 1.0 (without); Wilcoxon p = 3e-6, effect size 1.0 |
-| **cost** | per-step governance overhead | p99 = 0.046 ms |
+Use the versioned offline entry point in the research release for its named saved-record analyses. Validated complete-entry runtimes are Python3.10.9 and3.12.14; the documented Python3.9.6 strict comparison failure remains a failure.
 
-## Layout
+The repository also preserves its earlier experimental harness in the existing directories. Its original documentation is available in [the prior snapshot](https://github.com/s20sc/governed-individuation/blob/010f4d716db5fa0f1defbb2b5f4afa11ab566fe1/README.md). Those earlier measurement interpretations are not current validation claims for this manuscript.
 
-```
-gi/
-  identity.py     identity digest H over the frozen seed
-  realization.py  the realization layer R (sediments refusals as adaptive events)
-  loop.py         the governed-individuation loop (propose -> govern -> sediment)
-  governance.py   the governance G (real policy engine; blocked set = red-lines)
-  proposer.py     LLM / adversarial / prompt-building proposers
-  qwen_backend.py local model backend (greedy or sampled)
-  metrics.py      block rate, windowed rate, permission violations, convergence
-  stats.py        paired Wilcoxon + rank-biserial effect size
-  audit.py        I3 audit reconstruction
-  scenarios.py    the scenario pool
-tests/            unit tests for every component
-study.py          the GI vs Suppress statistical study
-verify_invariants.py  I1-I4 + adversarial over the full pool
-bench_cost.py     per-step overhead
-analyze.py        headline figures (standalone PDFs)
-reproduce.py      one-command reproduction
-```
-
-## Reproducing
-
-```bash
-# mechanism-only (CPU, seconds) — establishes I1-I4 and cost
-PYTHONPATH=/path/to/aeros/src:. python reproduce.py --no-model
-
-# full, including the language-model study (needs a local Qwen2.5-7B-Instruct)
-PYTHONPATH=/path/to/aeros/src:. python reproduce.py
-```
-
-Each scenario red-lines the natural, efficient action for a non-obvious policy
-reason, so a capable model proposes it (and is refused) rather than avoiding it
-outright; this is what makes the contrast between learning and not-learning
-observable.
-
-## Standalone reproduction
-
-The repository is self-contained: the AEROS runtime surface the harness needs
-(`PersonaCore`, the typed adaptation events, the pure-function resolver, and the
-`PolicyEngine` permission check) is vendored under `aeros/`, taken verbatim from the
-released runtime code. Point `AEROS_SRC` at a full runtime checkout to run against it
-instead.
-
-```bash
-pip install -r requirements.txt        # scipy, pydantic, pytest (matplotlib for figures)
-python reproduce.py --no-model         # unit tests + invariant checks + verifier suite (CPU, seconds)
-python reproduce.py                    # adds the statistical study + figures (needs a local
-                                       # Qwen2.5-7B-Instruct; torch + transformers)
-```
-
-`data/` carries every released result the paper reports, including the raw
-attestation responses (`data/2026-07-02-attestation-raw/`); the summaries are
-regenerated by checked-in, assert-guarded generators that fail loudly if the data
-and the reported numbers ever disagree.
-
-## Citing
-
-This repository accompanies the technical report *Governed Individuation:
-Cryptographically Decoupling an Agent's Learning from Its Authority* (arXiv, 2026)
-and the perspective article *Governable Individuals: An Identity Layer for Embodied
-Agents That Keep Learning*. Please cite the technical report.
+Author-controlled software is MIT-licensed. Research data/figures/retained author text in this release are CC BY4.0; existing third-party terms remain applicable. See the version-specific licensing file, including the treatment of nested archives and retained provenance.
