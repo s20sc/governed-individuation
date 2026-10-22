@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research-records release when using its data or offline analyses."
+type: dataset
+title: "Research records and offline analyses for Evaluating Authority Claims in Adaptive Agents: Observation Contracts and Finite Diagnostics"
+version: "1.0.0"
+date-released: "2026-10-22"
+authors:
+  - family-names: Qin
+    given-names: Xue
+  - family-names: Luan
+    given-names: Simin
+  - family-names: Yang
+    given-names: Cong
+  - family-names: Li
+    given-names: Zhijun
+url: "https://github.com/s20sc/governed-individuation/releases/tag/research-v1.0.0"
+repository-code: "https://github.com/s20sc/governed-individuation"
+license:
+  - MIT
+  - CC-BY-4.0

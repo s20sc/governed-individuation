@@ -1,0 +1,3 @@
+# Observation-class analysis
+
+Run python -B observation_analysis.py ../inputs/research-data.zip /absolute/new/output from this directory; run python -B -m unittest test_observation_analysis.py for seven checks. This derivative pins its own archive identity while retaining the original plan, terminal, request/response and annotation bytes. All analysis functions remain unchanged. The expected analysis JSON differs from the original only at identities.outer_archive_sha256. The tests check finite results, ordering, duplicate jobs, unsupported quotes, invalid choices and changed record bytes. The analysis is post-hoc and AI-assisted; it does not provide human semantic gold, authenticate original executions or infer internal reasoning.

@@ -1,0 +1,101 @@
+{
+  "scope": "Existing parentMIT text, not a new licence grant for package; applies to specifically byte-matched parentsoftware only",
+  "matching_files": [
+    {
+      "archive_path": "retained-records/controls-and-feedback/source-definitions/inducer.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/gi/inducer.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/controls-and-feedback/source-definitions/proposer.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/gi/proposer.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/controls-and-feedback/source-definitions/run_pilot_baseline.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/run_pilot_baseline.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/controls-and-feedback/source-definitions/run_pilot_induced_controls.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/run_pilot_induced_controls.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/controls-and-feedback/source-definitions/run_pilot_specificity.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/run_pilot_specificity.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/controls-and-feedback/source-definitions/scenarios.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/gi/scenarios.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/controls-and-feedback/source-definitions/software_scenarios.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/gi/software_scenarios.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/controls-and-feedback/source-definitions/stats.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/gi/stats.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/frontier-and-attestation/experiments/gi/frontier_specificity.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/frontier_specificity.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/frontier-and-attestation/experiments/gi/gi/attest_probes.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/gi/attest_probes.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/frontier-and-attestation/experiments/gi/gi/discriminating_scenarios.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/gi/discriminating_scenarios.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    },
+    {
+      "archive_path": "retained-records/frontier-and-attestation/experiments/gi/make_attestation_summary.py",
+      "byte_identical_parent_candidates": [
+        "experiments/gi/make_attestation_summary.py"
+      ],
+      "parent_license": "experiments/gi/LICENSE",
+      "parent_license_sha256": "b3513ac5e24a24f351fb3ee058fe141725cbe2c6cf218e838e84f61dce1ad7cf"
+    }
+  ]
+}

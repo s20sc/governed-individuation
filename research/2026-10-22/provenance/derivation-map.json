@@ -1,0 +1,85 @@
+{
+  "parent_sha256": "b8b69b6fc15edf648e6681f3e8f80b625267466f939e11a40339567154a333e5",
+  "derivative_sha256": "81ce86f32c91d1be8d1c3e0475a24467df986070c0a5b2d7b63dcaec003e63e8",
+  "original_leaf_count": 5663,
+  "derivative_leaf_count": 5659,
+  "unchanged_leaf_count": 5649,
+  "removed": [
+    {
+      "path": "PFinale-V25-offline/REPRODUCTION-RECEIPT.json",
+      "sha256": "f6a70b3932b6253b8c6dc58f51e8646a8f50d13f7a5a586b3a9c7f4294d3bef1"
+    },
+    {
+      "path": "PFinale-V25-offline/data/DEPOSIT-METADATA-DRAFT.json",
+      "sha256": "d08b0b9bc5c745cf6ef7e4b060f10959d524506870152a9366500853bf51815a"
+    },
+    {
+      "path": "PFinale-V25-offline/data/archives/PFinale-V22-verified-rule-offline-internal-20261019.zip!PFinale-verified-rule-control-offline/reviews/code-review.md",
+      "sha256": "580692ca8b0f9a6c08432e9184753136fb928cadbbf8838107a265cccebc2f56"
+    },
+    {
+      "path": "PFinale-V25-offline/data/archives/PFinale-V22-verified-rule-offline-internal-20261019.zip!PFinale-verified-rule-control-offline/reviews/freeze-oracle-check.json",
+      "sha256": "37880e541a9a841970491ae1312c5911956df52d509356071610a90e8ff82c52"
+    },
+    {
+      "path": "PFinale-V25-offline/data/archives/PFinale-V22-verified-rule-offline-internal-20261019.zip!PFinale-verified-rule-control-offline/reviews/scientific-qualification.md",
+      "sha256": "31cbd2a0733e3613598b7cdb004dcb7fc2c4f9d0874ff581d07840eea553470a"
+    }
+  ],
+  "modified": [
+    {
+      "path": "PFinale-V25-offline/PACKAGE-MANIFEST.json",
+      "old_sha256": "b6b278ff740bd28bf1e85ef55b26a9772aa7d0177465cc15c37f876a566f5065",
+      "new_sha256": "618ed01852db0b4e3c414e8c9515e803cbc362edf6d55d7aedc374de772c7c85"
+    },
+    {
+      "path": "PFinale-V25-offline/README.md",
+      "old_sha256": "25bf3516b0bed131e76dfde123c4e5a82d09489e4858fae1b524e2089e8c1765",
+      "new_sha256": "68257a62a89254388b728694853d00020b47d8dfc96c406097c8da99403cb099"
+    },
+    {
+      "path": "PFinale-V25-offline/data/MANIFEST.json",
+      "old_sha256": "d056d619d00f0ca65416bc2914ad369143f1441e1bc5d7ff397054e5e9da2be7",
+      "new_sha256": "2f3d0159dc9dc124c3cb4008b43e73a8afe3008b49fccc2980eaacaaa3ef2d7c"
+    },
+    {
+      "path": "PFinale-V25-offline/data/README.md",
+      "old_sha256": "83b6f92d194b69dbfb6cd31e80d5e16ddb72cc2f7939f773ce726bd511acd334",
+      "new_sha256": "68257a62a89254388b728694853d00020b47d8dfc96c406097c8da99403cb099"
+    },
+    {
+      "path": "PFinale-V25-offline/data/RIGHTS-AND-SCOPE.md",
+      "old_sha256": "81dff05cde3b6d2cf608316cde72a17084b33ea7c8ada7f0ea003632ba4eaf0a",
+      "new_sha256": "68257a62a89254388b728694853d00020b47d8dfc96c406097c8da99403cb099"
+    },
+    {
+      "path": "PFinale-V25-offline/data/archives/PFinale-V22-verified-rule-offline-internal-20261019.zip!PFinale-verified-rule-control-offline/PORTABLE.md",
+      "old_sha256": "0cf5035a22bc7cf38fb1fe1afc3d15a35319e14114440bb671af09218ed47885",
+      "new_sha256": "e157d0b684dfa7cc138f17f42e7d09fe9cb6f9ce8767625d4497bda4102dba7e"
+    },
+    {
+      "path": "PFinale-V25-offline/data/archives/PFinale-V22-verified-rule-offline-internal-20261019.zip!PFinale-verified-rule-control-offline/offline_core.py",
+      "old_sha256": "b738d170b639b2bd1b7823454ab883a8ba682ef63d6af156469492a834b14f58",
+      "new_sha256": "e191f5e04f7a668e8afb185e66bfbf5e020c99dd6b09e1621ba55706be791e2d"
+    },
+    {
+      "path": "PFinale-V25-offline/data/archives/PFinale-V22-verified-rule-offline-internal-20261019.zip!PFinale-verified-rule-control-offline/package-manifest.json",
+      "old_sha256": "52d1955660b041e8f8774f47fb872b9918095ab955ed22c7c08ce3752840f410",
+      "new_sha256": "5560c71af50e3d3569cf05bfdc6d188f7ddbb22a54a0f8ed5c2587bf7f83e078"
+    },
+    {
+      "path": "PFinale-V25-offline/data/archives/PFinale-V22-verified-rule-offline-internal-20261019.zip!PFinale-verified-rule-control-offline/test_portable.py",
+      "old_sha256": "0194d0d778e96c8d619eba50107b9f274e33f469d2dce8076abd4c065570bd27",
+      "new_sha256": "82ae3e3127ee48055f1239b723bf8f5d149846e76fe12d7b295b9c953e39501c"
+    }
+  ],
+  "added": [
+    {
+      "path": "PFinale-V25-offline/data/archives/PFinale-V22-verified-rule-offline-internal-20261019.zip!PFinale-verified-rule-control-offline/private-review-digests.json",
+      "sha256": "e4552dff7ff2e77ec42c6239deec18dbf4b408eb0c44e362c3e7fef6993c57f3"
+    }
+  ],
+  "research_inputs": "All other leaves, including every frozen plan, raw request/response, annotation and scientific expected output, are byte-identical.",
+  "observation_output_change": "identities.outer_archive_sha256 only; finite results must compare exactly",
+  "not_public": true
+}
